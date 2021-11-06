@@ -201,7 +201,7 @@ A: Try running `sudo pip3 install tbomb`
 **Q:** How to get protection ?
 
 **A:** Use OTP blockers and activate DND.
-##
+
 **Q:** Why does it fail?
 
 **A:** Due to the overuse of script, a bunch of APIs have been taken offline. It is okay if you do not receive all the messages.
