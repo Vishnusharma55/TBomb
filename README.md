@@ -102,12 +102,12 @@ chmod +x TBomb.sh
 ./TBomb.sh
 ```
 
-#### For Debian-based GNU/Linux distributions 
+#### For Debian-based GNU/Linux distributions
 
 To use the application, type in the following commands in GNU/Linux terminal.
 ```shell script
 sudo apt install git
-git https://github.com/Vishnusharma55/TBomb.git
+git clone https://github.com/Vishnusharma55/TBomb.git
 cd TBomb
 bash TBomb.sh
 ```
@@ -116,9 +116,13 @@ bash TBomb.sh
 
 To use the application, type in the following commands in MacOS terminal:
 
+##### Install Brew
+
+```shell script
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ````
 
-** Install dependencies: **
+##### Install dependencies:
 
 ```shell script
 brew install git
@@ -131,18 +135,30 @@ bash TBomb.sh
 ```
 
 
-** Missing Tools on MacOS **
+##### Missing Tools on MacOS
 
 The package `toilet` cannot be installed yet on macOS. But TBomb does still work.
 
+### Demonstrative Video:
 
-** Contributors **
+- Watch Indian Bombing Method [here](https://youtu.be/9KWkwsr_QGw)  
+- Watch International Bombing Method [here](https://youtu.be/JqsHkyIcnPM).  
 
-- Mail **[Gaurav](https://github.com/scpketer)** at scpketer@protonmail.ch
-- Mail **[Vishnu](https://github.com/Vishnusharma55)** at Vishnu.sharma.mtr55@gmail.com
+## Contributors
+
+- Catch **[t0xic0der](https://github.com/t0xic0der)** at https://atlasdoc.netlify.app
+- Check **[Avinash](https://github.com/AvinashReddy3108)** at https://github.com/AvinashReddy3108
+- Mail **[scpketer](https://github.com/scpketer)** at scpketer@protonmail.ch
+- Mail **[0n1cOn3](https://github.com/0n1cOn3)** at 0n1cOn3@gmx.ch
+- Ping **Rieltar** at https://t.me/RieltarReborn
 
 
-** TODO: **
+### Donators:
+
+- **[34D30Y](34db0y@protonmail.com)**
+- **SC AMAN**
+
+### TODO:
 
 - [x] Make Code More Readable and Extensible
 - [ ] Add More Mail Spam APIs
@@ -150,8 +166,64 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
 - [ ] Add More Call Spam APIs
 - [ ] Resolve threading issue in some devices
 
+## FAQ
 
-** Support **
+**Q:** Is there any TBomb Website/App ?
+
+**A:** There is no official website/app yet.The only official releases of TBomb are published in [Github](https://github.com/Vishnusharma55/TBomb.git) and [PyPi](https://pypi.org/project/tbomb)
+##
+**Q:** Poor Internet Connection Detected:
+
+**A:** Here are a few stuff you can try:
+- Check your connection.
+- Make sure `openssl` is installed.
+- Try to `ping` any remote site/address to be sure.
+- Try to reinstall if nothing works.
+##
+**Q:** Do you support "X" Country?
+
+**A:** Most Countries are supported for SMS and only India for calls. The SMS delivery rate might be different for different countries.
+##
+**Q:** Can you add support for "X" Country?
+
+**A:** We do what we can, but we cannot promise. Please stay tuned for future support. If you are ready to help then maybe we can do faster.
+##
+**Q:** Why is the limit so low?
+
+**A:** Due the amount of requests, the APIs can die. To prevent a bigger outtake of TBomb, it has been limited. 
+##
+**Q:** Help, I got the error that the requirements aren't installed, even when the installer has successfully reached the main menu
+
+**A:** First, make sure `python3` and `pip3` are installed. 
+- The Easy Method:  
+   `pip3 install tbomb`  
+    Then execute by simply running `tbomb`
+- The Git Method:  
+    Clone the repo and Switch to the TBomb Directory and execute this command:  
+    `pip3 install -r requirements.txt`
+##
+**Q:** Help, It says `command 'tbomb' not found` after installing PIP version!
+
+**A:** Try running `sudo pip3 install tbomb`
+##
+**Q:** Help, I can't execute TBomb.sh!
+
+**A:** Run TBomb Directly with `python3 bomber.py`
+##
+**Q:** Should I use VPN? 
+
+**A:** No, If you are facing high fail rate as TBomb can fail due the high response time or API restrictions.
+##
+**Q:** How to get protection ?
+
+**A:** Use OTP blockers and activate DND.
+##
+**Q:** Why does it fail?
+
+**A:** Due to the overuse of script, a bunch of APIs have been taken offline. It is okay if you do not receive all the messages.
+##
+### Support
+
 For Queries: [Telegram Group](https://t.me/Vs_Tech_Hub)  
 Contributions, issues, and feature requests are welcome!  
 Give a ★ if you like this project!
