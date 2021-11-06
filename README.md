@@ -186,9 +186,9 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
     Clone the repo and Switch to the TBomb Directory and execute this command:  
     `pip3 install -r requirements.txt`
 ##
-**Q:** Help, It says `command 'tbomb' not found` after installing PIP version!
+Q: Help, It says `command 'tbomb' not found` after installing PIP version!
 
-**A:** Try running `sudo pip3 install tbomb`
+A: Try running `sudo pip3 install tbomb`
 ##
 **Q:** Help, I can't execute TBomb.sh!
 
