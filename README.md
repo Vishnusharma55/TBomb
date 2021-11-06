@@ -107,7 +107,7 @@ chmod +x TBomb.sh
 To use the application, type in the following commands in GNU/Linux terminal.
 ```shell script
 sudo apt install git
-git clone https://github.com/Vishnusharma55/TBomb.git
+git https://github.com/Vishnusharma55/TBomb.git
 cd TBomb
 bash TBomb.sh
 ```
@@ -134,12 +134,12 @@ bash TBomb.sh
 ##### Missing Tools on MacOS
 
 The package `toilet` cannot be installed yet on macOS. But TBomb does still work.
- 
+
 
 ## Contributors
 
-- Mail **[scpketer](https://github.com/vishnu sharma)** at vishnu.sharma.mtr55@gmail.com
-- Mail **[0n1cOn3](https://github.com/0n1cOn3)** at g
+- Mail **[Gaurav](https://github.com/scpketer)** at scpketer@protonmail.ch
+- Mail **[Vishnu](https://github.com/Vishnusharma55)** at Vishnu.sharma.mtr55@gmail.com
 
 
 ### TODO:
@@ -152,9 +152,9 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
 
 ## FAQ
 
-**Q:** Is there any TBomb Website/App ?
+**Q:** Is there any TBomb Website/App ?https://github.com/Vishnusharma55/TBomb.git
 
-**A:** There is no official website/app yet.The only official releases of TBomb are published in [Github](https://github.com/TheSpeedX/TBomb) and [PyPi](https://pypi.org/project/tbomb)
+**A:** There is no official website/app yet.The only official releases of TBomb are published in [Github](https://github.com/https://github.com/Vishnusharma55/TBomb.git) and [PyPi](https://pypi.org/project/tbomb)
 ##
 **Q:** Poor Internet Connection Detected:
 
@@ -186,9 +186,9 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
     Clone the repo and Switch to the TBomb Directory and execute this command:  
     `pip3 install -r requirements.txt`
 ##
-Q: Help, It says `command 'tbomb' not found` after installing PIP version!
+**Q:** Help, It says `command 'tbomb' not found` after installing PIP version!
 
-A: Try running `sudo pip3 install tbomb`
+**A:** Try running `sudo pip3 install tbomb`
 ##
 **Q:** Help, I can't execute TBomb.sh!
 
@@ -201,7 +201,7 @@ A: Try running `sudo pip3 install tbomb`
 **Q:** How to get protection ?
 
 **A:** Use OTP blockers and activate DND.
-
+##
 **Q:** Why does it fail?
 
 **A:** Due to the overuse of script, a bunch of APIs have been taken offline. It is okay if you do not receive all the messages.
